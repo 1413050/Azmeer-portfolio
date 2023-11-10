@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/66ede70a5a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Personal-Portfolio | Azmeer Shah</title>
+  </head>
+
+  
+
+
+  <div class="black-screen" style="display: none">
+    <div class="d-flex flex-column align-items-center justify-content-center">
+      <button
+        class="close-btn btn end-0 top-0 position-absolute text-white fs-1"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="slider-wrapper container pt-5" id="portfolio-slider">
+      
+      </div>
+
+      <div class="container navOfslides position-relative" id="slides_nav">
+        <div class="slides-nav row mt-5" ></div>
+
+        <div class="buttons fs-1">
+          <button class="previous btn btn-lg">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="next btn btn-lg">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div> 
+    <!-- \\\\\\\\\\\\\\\\\\\\    NAVBAR \\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+
+
+    <header class="navbar-bg">
+      <nav class="container navbar navbar-expand-lg navbar-light  pb-0">
+        <div class="container-fluid ">
+          <a class="navbar-brand text-white name-font fw-bolder" href="#"
+            >Azmeer</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            
+            <i class="fa fa-bars text-white fs-1"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <div class="active_indicator"></div>
+              <li class="nav-item px-4  py-3 home">
+                <a
+                  class="nav-link   text-white"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item px-4  py-3 about">
+                <a class="nav-link text-white " href="#about">About</a>
+              </li>
+
+              <li class="nav-item px-4  py-3 skills">
+                <a class="nav-link text-white" href="#skills"> Skills</a>
+              </li>
+              <li class="nav-item px-4  py-3 portfolio">
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item px-4  py-3 contact">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+  <div class="sections" id="sections" data-0="transform:translateX(0%);" data-1000="transform:translateX(-400%);">
+    <!-- \\\\\\\\\\\\\\\\\\\\    Main Body  \\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <div class="container main-info" id="home">
+      <div class="row     w-100 px-5">
+        <div class="col-md-6 d-flex justify-content-center flex-column">
+          <div class="my-info">
+            <p class="fw-bold">Hello, its Me</p>
+            <p class="display-3 my-name fw-bolder">Muhammad <br> Azmeer Shah</p>
+            <p class="fw-bold">
+              & I am a <span class="text-hl" id="portfolio-text"></span>
+            </p>
+            <!-- <p class="fs-6">Hey, I am certified front-end developer from Aptech Pakistan.</p> -->
+          </div>
+          <div class="social-media-buttons">
+            <a
+              href="https://www.instagram.com/azmeer_shah2"
+              class="btn btn-white mx-1"
+              target="_blank"
+              title="Instagram"
+            >
+              <i class="fa fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/azmeer.shah.7"
+              class="btn btn-white mx-1"
+              target="_blank"
+              title="Facebook"
+            >
+              <i class="fa fa-facebook"></i
+            ></a>
+            <a
+              href="mailto: azmeershah621@gmail.com"
+              class="btn btn-white mx-1"
+              target="_blank"
+              title="G-mail"
+            >
+              <i class="fa fa-envelope-o"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/azmeer-shah-588495270/"
+              class="btn btn-white mx-1"
+              target="_blank"
+              title="LinkedIn"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </div>
+
+          <div class="cv-btn mt-4">
+            <a
+              href="./assets/Muhammad Azmeer Shah.pdf"
+              class="btn rounded-pill ms-1"
+              download="Azmeer(CV).pdf"
+              >Download CV</a
+            >
+          </div>
+        </div>
+
+        <div class="col-md-6 personal-image">
+          <!-- IMAGE -->
+          <div class="bg-box"></div>
+          <!-- <img src="./assets/azmeer_bg.png"> -->
+        </div>
+      </div>
+    </div>
+
+    <!--\\\\\\\\\\\\\\\\\\\\\\ ABOUT SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+    <div class="about-us-section container" id="about">
+      <div class="row flex-column justify-content-center align-items-center">
+        <div class="col-md-12 d-flex align-items-center justify-content-center">
+          <p class="display-1 text-center fw-bold position-relative">
+            About Me
+            <span class="exclamation_ani"
+              ><img src="./assets/exclamation.png" alt="portfolio-images"
+            /></span>
+          </p>
+        </div>
+        <div class="col-md-7 fs-4">
+          <p class="text-justify">
+            I am professional <b> jnr. Front-End Web Developer</b> with 
+            great experience in iternship from <b>Fossphorus</b> & Also certified from
+            <b>Aptech Pakistan</b>. I can design any website using my core
+            skills. I have abilities to work as a team with leadership
+            qualities.
+          </p>
+
+          <div class="details row mt-5">
+            <div class="email col-lg-6">
+              Email:
+              <a href="mailto:azmeershah621@gmail.com"
+                >azmeershah612@gmail.com</a
+              >
+            </div>
+            <div class="ph-no col-lg-6">
+              Phone No: <a href="tel:03230316808">+92323-0316808</a>
+            </div>
+          </div>
+          <div class="details row mt-lg-4 ">
+            <div class="address col-lg-6">
+              Address: <a>Karsaz Karachi, Pakistan</a>
+            </div>
+            <div class="remote col-lg-6">Remote: <a>Available</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\ SKILLS SECTION //////////////////////// -->
+
+
+    <div id="skills"
+      class="core-skills d-flex flex-column container align-items-center justify-content-center"
+    >
+      <p class="skill-h display-3 text-center fw-bolder">Core Skills</p>
+     
+        <div class="row  w-100  mt-5">
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="85">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/html.png" height="24" width="24" alt="html">HTML</span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="85">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/css.png" height="24" width="24" alt="CSS"> CSS</span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="80">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/js.png" height="24" width="24" alt="Javascript"> Javascript</span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="85">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/bs.png" height="24" width="24" alt="Bootstrap"> Bootstrap</span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="80">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/jquery.png" height="24" width="24" alt="Jquery"> Jquery</span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="65">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/tail.png" height="24" width="24" alt="Tailwind"> Tailwind </span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="50">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/react.png" height="24" width="24" alt="React"> React</span>
+          </div>
+          </div>
+          <div class="col-md-3 skill-progress col-4 my-3 my-lg-5">
+            <div class="parent-skill">
+              <div class="skill">
+                  <div class="progress" data-progress="60">
+                      <span class="progress-number">0%</span>
+                  </div>
+              </div>
+              <span class="title"><img class="me-1" src="./assets/logos/php.png" height="24" width="24" alt="php"> Php</span>
+          </div>
+          </div>
+        </div>
+        
+
+        
+
+      
+
+      <!-- <div class="skill-details position-relative">
+        <div class="circle-frame rotate-90-cw"></div>
+        <div class="skill-lang html"><div class="html-info"></div></div>
+        <div class="skill-lang php"></div>
+        <div class="skill-lang css"></div>
+        <div class="skill-lang bootstrap"></div>
+        <div class="skill-lang tail"></div>
+
+        <div class="skill-lang react"></div>
+        <div class="skill-lang js"></div>
+        <div class="skill-lang jquery"></div>
+
+        <div class="skill-img position-absolute">
+          <img
+            src="./assets/skills.png"
+            class="w-75 h-75"
+            alt="portfolio-images"
+          />
+          <p class="text-center w-75 display-6 text-uppercase">
+            technichal skills
+          </p>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\ PORTFOLIO SECTION //////////////////////// -->
+    <div id="portfolio"
+      class="portfolio container d-flex align-items-center justify-content-center mt-5 flex-column" style="margin-top: 105px !important;"
+    >
+      <p class="portfolio-h display-3 text-center fw-bolder">Portfolio</p>
+
+      <div class="row my-3 w-100" id="portfolio-container"></div>
+
+      
+    </div>
+
+  
+  
+  <!-- ////////////////////////// CONTACT SECTION \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+ <div class="contact-section container d-flex justify-content-center align-items-center flex-column mt-200px">
+  <p class="portfolio-h display-3 text-center fw-bolder">CONTACT ME</p>
+  <form onsubmit="emailSend()" class="form row w-75 my-5">
+    <div class="my-3 col-md-6">
+      <input type="text" placeholder="NAME" id="Cname" class=" bg-transparent p-3  form-control">
+      <label for="Cname" id="error_Cname">Name Is  Required*</label>
+    </div>
+    <div class="my-3 col-md-6">
+      <input type="text" placeholder="EMAIL" id="Cmail" class=" bg-transparent p-3  form-control">
+      <label for="Cmail"  id="error_Cmail" >Email Is  Required*</label>
+    </div>
+    <div class="my-3 col-md-12">
+      <input type="text" placeholder="SUBJECT" id="Csubject" class=" bg-transparent p-3  form-control">
+      <label for="Csubject"  id="error_Csubject">Subject Is  Required*</label>
+      
+    </div>
+    <div class="my-3 col-md-12">
+      <textarea name="" placeholder="MESSAGE" id="Cmessage" cols="30" rows="10" class=" bg-transparent p-3  form-control"></textarea>
+      <label for="Cmessage"  id="error_Cmessage">Message Is  Required*</label>
+    </div>
+
+    <div class="send-btn d-flex justify-content-center mt-3">
+      <button type="button" id="send_btn" class="btn btn-warning text-white px-3 py-2 fs-5">Send <i class="fa fa-send"></i></button>
+    </div>
+  </form>
+ </div>
+
+
+</div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/portfolio.json"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./assets/skrollr.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.6/velocity.min.js" integrity="sha512-+VS2+Nl1Qit71a/lbncmVsWOZ0BmPDkopw5sXAS2W+OfeceCEd9OGTQWjgVgP5QaMV4ddqOIW9XLW7UVFzkMAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+    
+	var s = skrollr.init();
+	
+      var typed = new Typed("#portfolio-text", {
+        strings: [
+          "Jnr. Front-End Developer",
+          "Html And Css Expert",
+          "JavaScript Developer",
+          "React Begginner",
+          "Backend PHP Developer",
+        ],
+        typeSpeed: 150,
+        loop: true,
+      });
+
+      $(document).ready(function () {
+        
+        setTimeout(() => {
+          $(".black-screen").hide();
+        }, 100);
+
+        $(".gallery-slider").click(() => {
+          $(".black-screen").fadeIn();
+          $(".slider-wrapper").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: ".slides-nav",
+          //       nextArrow: '.slick-next',
+          // prevArrow: '.slick-prev'
+        });
+        $(".slides-nav").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          asNavFor: ".slider-wrapper",
+          dots: false,
+          centerMode: true,
+          focusOnSelect: true,
+          prevArrow: ".previous",
+          nextArrow: ".next",
+        });
+        });
+
+        $(".close-btn").click(() => {
+          $(".black-screen").fadeOut();
+        });
+
+       
+      });
+      
+
+
+
+
+        let indicator = document.querySelector('.active_indicator') ;
+        let items = document.querySelectorAll('nav ul ') ;
+        let section = document.querySelectorAll('.sections') ;
+
+
+
+        function marker(e) {
+          let left = e.offsetLeft-20
+            indicator.style.left= left+'px';
+          
+        }
+
+        items.forEach(link=>{
+            link.addEventListener('click',(e)=>{
+                marker(e.target)
+            })
+            
+        })
+
+  
+
+
+    </script>
+  </body>
+</html>
+
+

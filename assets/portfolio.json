@@ -1,0 +1,107 @@
+[
+    {
+        "cname": "Fossphorus",
+        "cimg": "./assets/projects/fossphorus.jpg",
+        "csite": "fossphorus.com",
+        "curl": "https://www.fossphorus.com/",
+        "cdetail": "Fossphorus is an independently owned strategic branding studio that strikes the right balance between creativity and technology. Focused on strategy, media, content, design, and technology, we provide complete branding solutions under one roof. Our uncompromising pool of creative think tanks works together across markets to develop and deliver incomparable marketing services, helping businesses thrive."
+    },
+    {
+        "cname": "Aberny",
+        "cimg": "./assets/projects/aberny.jpg",
+        "csite": "aberny.com",
+        "curl": "https://www.aberny.com/",
+        "cdetail":"With over 25 years of combined experience at the Big Four, Small Accounting Firms, and private companies, we are ready to take on all of your accounting and bookkeeping needs. We work with small and medium sized businesses and our goal is to make sure your financials and accounts are up to date so you have the relevant information to make better decisions"
+    },
+    {
+        "cname": "Delta Recruitment",
+        "cimg": "./assets/projects/delta.jpg",
+        "csite": "delta.com",
+        "curl": "http://146.190.86.79",
+        "cdetail": " Over the years, DITRC(Delta International Recruiting Company) has established itself as the leader in the HR and staffing industry among the overseas manpower recruitment agencies in Pakistan. Our headhunting experts have streamlined whole recruitment process for international employers. With our extensive network and resources, we can provide skilled, semi-skilled, unskilled manpower including blue- collar and white-collar from Pakistan in all industries. Additionally, we specialize in executive recruiting."
+    },
+    {
+        "cname": "Accounting Bookeepers",
+        "cimg": "./assets/projects/Ab.jpg",
+        "csite": "accounting-bookeepers-uk",
+        "curl": "https://www.fossphorus.com/client/accounting-bookeepers-uk/",
+        "cdetail": "Accounting Bookkeepers is the premier firm of certified accountants and business consultants in the UK. ICEAW certified and specialists in Xero and QuickBooks, we provide impeccable bookkeeping solutions to corporations, partnerships, limited companies, start-ups, and sole traders."
+    },
+    {
+        "cname": "IslandCare",
+        "cimg": "./assets/projects/ic.jpg",
+        "csite": "islandcare.bm",
+        "curl": "https://islandcare.bm/",
+        "cdetail": "As they grew older, our grandmothers needed more care. We found the process of finding a trustworthy & available caregiver very challenging. Trying to arrange care supports while busy at work and raising a small family, was tough and we wished there was a simple solution."
+    },
+    {
+        "cname": "Metromilan",
+        "cimg": "./assets/projects/metro.jpg",
+        "csite": "metromilan.com",
+        "curl": "https://metormilan.fossphorus.com/",
+        "cdetail": "We are passionate about creating exquisite scents that ignite your senses and elevate your daily rituals. We believe that incense has the power to transform your environment and enhance your well-being. Hence, each of our incense sticks is meticulously crafted using premium ingredients sourced from around the globe, ensuring an authentic and enchanting experience with every burn."
+    },
+    {
+        "cname": "Gravesend Central",
+        "cimg": "./assets/projects/gdma.jpg",
+        "csite": "gravesendcentralmosque.com",
+        "curl": "https://gravesendcentralmosque.com/",
+        "cdetail": " Muslims first settled in the Gravesend and Dartford area in the early 1960s. The early migrants were predominantly young men who came to England in search of a better life. Their families joined them and the Muslim community began to grow."
+    },
+    {
+        "cname": "KoreConsulting",
+        "cimg": "./assets/projects/kc.jpg",
+        "csite": "kore-consulting.com",
+        "curl": "https://www.fossphorus.com/client/kore-consulting/",
+        "cdetail": "Kore Consulting is a leading accounting, bookkeeping, tax, and corporate advisory firm in the UK. We work closely with our clients to assist them with strategic financial decisions while ensuring accurate record-keeping. Our professional team strives to provide a balanced perspective and empowered expertise to a wide range of clients ."
+    },
+    {
+        "cname": "Refine Tz",
+        "cimg": "./assets/projects/tz.jpg",
+        "csite": "refinetz.com",
+        "curl": "https://refinetz.com/",
+        "cdetail": " This will help you achieve greater results and have your product or company being talked about. In today’s competitive world, marketing can make a difference to your organization and can help you stand out. Whether you are looking for assistance in short or long term projects, big or small assignments, we can help you."
+    },
+    {
+        "cname": "Dynami Medical",
+        "cimg": "./assets/projects/medical.jpg",
+        "csite": "www.dhealth.ca",
+        "curl": "https://www.dhealth.ca/",
+        "cdetail": " Established in 2015, since then Dynamic Medical strives to provide unparalleled healthcare services to patients having gastrointestinal diseases and eye problems within the Canada. We have built a reputation for delivering pioneering services and outstanding outcomes for the people in our care."
+    },
+    {
+        "cname": "Namaz Screen",
+        "cimg": "./assets/projects/namaz-screen.jpg",
+        "csite": "Namaz-screen",
+        "curl": "https://gravesendcentralmosque.com/namaz-screen",
+        "cdetail": "Its a complete javascript and html css namaz timer screen which is used in Uk Masjid for prayers .Developed for gravesendcentralmosque website fully functional clock ."
+    },
+    {
+        "cname": "Gorokers",
+        "cimg": "./assets/projects/gorokers.jpg",
+        "csite": "gorokers.netlify.app",
+        "curl": "https://gorokers.netlify.app",
+        "cdetail": "This is a practice project which I developed with tailwind css. it is a vegetable shop of which only frontend is completed."
+    },
+    {
+        "cname": "Picnic Games",
+        "cimg": "./assets/projects/picnic.jpg",
+        "csite": "Picnic Games",
+        "curl": "https://picnic-games.netlify.app/",
+        "cdetail": "It is an e-Project for Aptech which I developed completly on html css & javascript. Its near 25 pages website.Picnic Games is an informative/enjoyable website which provide enjoyment, fun & all information about your chosen game or activity like what is the game, how to play , rules & time duration.We also provide demo videos so that u can watch & implement it . We built four section for kids, males, females & families so that they can enjoy their Categoriezed games with enjoy."
+    },
+    {
+        "cname": "Nextube Clone",
+        "cimg": "./assets/projects/nextube.jpg",
+        "csite": "nextube.netlify.app",
+        "curl": "https://nextube.netlify.app/",
+        "cdetail": "nextube is a youtube clone which I made at the beginnig to be an expert front end developer.it contains many resemblance with the actaul site."
+    },
+    {
+        "cname": "Carspot",
+        "cimg": "./assets/projects/carspot.jpg",
+        "csite": "car-spot.netlify.app",
+        "curl": "https://car-spot.netlify.app/",
+        "cdetail": "Carspot is a car spare parts website which is made through html css and tailwind css framework which is completly responsive and amazing user experience."
+    }
+]
