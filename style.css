@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@700&display=swap');
 
 *{
 
@@ -17,7 +17,11 @@
   --main_color:	#4B92DB!important;
   
   --bg-body:#222529;
+  --main-font: 'Marhey', sans-serif;
 } 
+.mFont{
+    font-family: var(--main-font) !important;
+}
  body::-webkit-scrollbar {
     width: 10px;
   }
@@ -50,6 +54,7 @@
     font-family: 'Dancing Script', cursive !important;
     font-size: 45px !important;
 }
+
 body{
     background: url('./assets/main-bg.jpg');
     background-repeat: no-repeat;
@@ -62,9 +67,11 @@ position: relative;
 }
 
 .my-name{
-    -webkit-text-stroke-color: var(--main_color);
+    -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-fill-color: transparent;
+    font-family: 'Marhey', sans-serif;
+    font-size: 4rem;
 }
 .navbar-bg{
     background: var(--main_color);
@@ -79,6 +86,59 @@ position: relative;
     width: 100%;
     display: flex;
 }
+.ljump span {
+    position: relative;
+    animation: jump 1.75s infinite;
+  }
+  
+  .ljump span:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  .ljump span:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  
+  .ljump span:nth-child(4) {
+    animation-delay: 0.7s;
+  }
+  
+  .ljump span:nth-child(5) {
+    animation-delay: 0.9s;
+  }
+  
+  .ljump span:nth-child(6) {
+    animation-delay: 1.1s;
+  }
+  
+  .ljump span:nth-child(7) {
+    animation-delay: 1.3s;
+  }
+  
+  .ljump span:nth-child(8) {
+    animation-delay: 1.5s;
+  }
+  
+  .ljump span:nth-child(9) {
+    animation-delay: 1.7s;
+  }
+  
+  .ljump span:nth-child(10) {
+    animation-delay: 1.9s;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -20px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+
 .sections>div{
     min-width: 100% !important;
     height: auto !important;
@@ -95,7 +155,7 @@ position: relative;
     color: var(--main_color);
 }
 .main-info{
-    margin-top:12rem;
+   
 position: relative;
 }
 /* .main-info::before{
@@ -111,15 +171,36 @@ position: relative;
     opacity: 0.4;
 } */
 .about-us-section{
-    margin-top:13rem;
+    margin-top:0rem;
 }
 .my-info{
     font-size: 1.5rem;
 }
-
+#home::before{
+content: "";
+position: absolute;
+width: 80%;
+height: 100vh;
+background: url('./assets/Azmeer2.png');
+background-size: cover;
+right: -225px;
+top: 130px;
+background-attachment: fixed;
+filter: drop-shadow(10px 10px 10px var(--main_color));
+animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
 .text-hl{
-    color: var(--main_color);
+    color: white;
     font-size: 2rem;
+    font-family: 'Marhey', sans-serif;
 }
 .close-btn{
     z-index: 23452315634498 !important;
@@ -190,7 +271,7 @@ nav ul .active_indicator::after{
 }
 .cv-btn a{
     border: 2px solid var(--main_color) !important;
-    color: #302b63;
+    color: #252150;
     background-color: var(--main_color) !important;
 font-weight: bold !important;
 }
@@ -208,19 +289,21 @@ font-weight: 500 !important;
     width: 100%;
     height: 60vh;
 }
-.bg-box{
+/* .bg-box{
     border-radius: 30% 70% 70% 30% / 30% 43% 57% 70% ;
     background-color: var(--main_color);
-    height: 500px ;
+    height: 800px ;
     width: 100%;
     animation: boxani 5s infinite ;
-    background-image: url(./assets/Azmeer2.png);
+     background-image: url(./assets/Azmeer2.png); 
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 b{
     color: var(--main_color);
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive !important;
 }
 
 @keyframes boxani {
@@ -248,7 +331,7 @@ b{
 }
 
 .exclamation_ani img{
-   
+    filter: invert(0.75);
   position: absolute;
   top: -20px;
         height: 110px;
@@ -278,7 +361,7 @@ b{
 .details a{
     /* border-bottom:1px solid  var(--main_color); */
     text-decoration: none;
-    color: white;
+
     font-size: 17px;
     color: var(--main_color) !important;
 }
@@ -391,7 +474,7 @@ b{
     position: relative;
     font-size: 17px;
     padding: 10px;
-    background: #302b63;
+    background: var(--main_color);
     color: white !important;
   }
   
@@ -468,7 +551,7 @@ position: relative;
     opacity: 0.95;
     overflow: hidden; /* Prevent background from scrolling */
 }.slides>.row{
-    height: 60vh !important;
+    height: 90vh !important;
 }
 .slides>.row>.col-md-7>img{
 height: 100% !important;
@@ -478,7 +561,12 @@ height: 100% !important;
     height: 100% !important;
 }
 .slides>.row>.col-md-5>h2{
-    text-shadow: 1px 1px 30px white;
+    /* text-shadow: 1px 1px 30px white; */
+    font-family: var(--main-font);
+    text-align: center;
+    font-size:40px ;
+    padding-top: 20px;
+    border-bottom: 4px solid var(--main_color);
 }
 .slides>.row>.col-md-5>h4>a{
    color: var(--main_color);
@@ -490,13 +578,13 @@ height: 100% !important;
 .buttons>.previous{
     position: absolute;
     top: 50%;
-    left: -40px; color:white;
+    left: 0px; color:white;
 }
 
 .buttons>.next{
     position: absolute;
     top: 50%;
-    right: -40px; color:white;
+    right: 0px; color:white;
 }
 .black-screen button:focus{
     box-shadow: none !important;
@@ -576,7 +664,7 @@ label{
     display: none;
 }
 .slider-wrapper{
-    height: 65vh !important;
+    height: 100vh !important;
 }
 .slider-wrapper .slides{
 height: 100%;
@@ -705,7 +793,7 @@ form.w-75{
     height: 210px !important;
    }
 .about-us-section {
-    margin-top: 7rem !important;
+    margin-top: 9rem !important;
 }
 .skill {
     width: 80px;
@@ -730,5 +818,31 @@ form.w-75{
 }
 .active_indicator{
     display:  none !important;
+}
+body{
+    overflow: visible !important;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    width: 135%;
+    height: 100vh;
+    background: url(./assets/Azmeer2.png);
+    background-size: cover;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0px;
+    background-attachment: fixed;
+    filter: drop-shadow(10px 10px 10px var(--main_color));
+    animation: float 6s ease-in-out infinite;
+
+}
+.my-name {
+    
+    font-size: 3.5rem;
+}
+form.w-50{
+    width: 100% !important;
 }
 }

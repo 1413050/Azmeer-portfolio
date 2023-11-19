@@ -53,7 +53,7 @@ $(document).ready(function () {
         // Create a portfolio item dynamically
         var portfolioItem = document.createElement("div");
         portfolioItem.classList.add("col-md-3");
-        portfolioItem.classList.add("my-4");
+        portfolioItem.classList.add("my-3");
 
         portfolioItem.innerHTML = `
           <div class="hovereffect">
@@ -232,12 +232,12 @@ fetch('./assets/portfolio.json')
             <img src="${item.cimg}" class="w-100" alt="${item.cname}" />
           </div>
           <div class="col-md-5">
-            <h2 class="main-color">${item.cname}</h2>
-            <h4 class="mt-md-5 mt-2">Category: <span class="h5">Website</span></h4>
+            <h2 class="main-color mb-5">${item.cname}</h2>
+            <h4 class="mt-md-5 mt-2"><span class="mFont main-color">Category :</span> <span class="h5">Website</span></h4>
             <h4 class="mt-md-5 mt-2">
-              URL: <a class="h5" href="${item.curl}">${item.csite}</a>
+            <span class="mFont main-color"> URL :</span> <a class="h5 text-white" href="${item.curl}">${item.csite}</a>
             </h4>
-            <h4 class="mt-3">About:</h4>
+            <h4 class="mt-md-5"><span class="mFont main-color">About : </span></h4>
             <p class="text-justify">${item.cdetail}</p>
           </div>
           </div>
